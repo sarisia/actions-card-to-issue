@@ -1,0 +1,21 @@
+name: 'Card to Issue'
+description: 'Convert GitHub projects card to the issue automatically, with assignees & labels support!'
+author: 'Sarisia'
+
+inputs:
+  token:
+    description: 'GitHub token'
+    required: false
+    default: ${{ github.token }}
+  assign_author:
+    description: 'Whether to assign card author to the issue'
+    required: false
+    default: 'false'
+
+runs:
+  using: 'node12'
+  main: 'lib/index.js'
+
+branding:
+  color: 'orange'
+  icon: 'hash'

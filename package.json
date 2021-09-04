@@ -1,0 +1,29 @@
+{
+  "name": "actions-card-to-issue",
+  "version": "0.0.0",
+  "description": "Convert Projects card to Issue",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build -o lib src/index.ts",
+    "release": "npm ci && npm run build",
+    "version": "npm run release && git add ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarisia/actions-card-to-issue.git"
+  },
+  "author": "Sarisia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarisia/actions-card-to-issue/issues"
+  },
+  "homepage": "https://github.com/sarisia/actions-card-to-issue#readme",
+  "devDependencies": {
+    "@actions/core": "^1.5.0",
+    "@actions/github": "^5.0.0",
+    "@types/node": "^16.7.6",
+    "@vercel/ncc": "^0.30.0",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {}
+}
