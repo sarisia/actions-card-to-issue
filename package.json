@@ -1,6 +1,6 @@
 {
   "name": "actions-card-to-issue",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convert Projects card to Issue",
   "main": "dist/index.js",
   "scripts": {
