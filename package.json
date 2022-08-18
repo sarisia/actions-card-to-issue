@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/sarisia/actions-card-to-issue#readme",
   "devDependencies": {
-    "@actions/core": "^1.5.0",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^5.0.0",
     "@types/node": "^16.7.6",
     "@vercel/ncc": "^0.30.0",
