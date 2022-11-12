@@ -1,3 +1,8 @@
+# Deprecated
+
+Consider migrating to the new [GitHub Projects](https://github.com/features/issues)
+and use [actions/add-to-project](https://github.com/actions/add-to-project).
+
 # Actions Card to Issue
 
 Convert GitHub projects card to the issue automatically,
